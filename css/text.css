@@ -282,7 +282,13 @@ ol {
 		margin: 0;
 		padding: 110px 20px 25px 20px;
 	}
-	.header ul li a:hover, .header ul li a.current { /* Current Page tab highlighter and mouse over tab */
+	.header ul li a.current { /* Current Page tab  */
+		color: #eee;
+		text-decoration: none;
+		border: none;
+		background: url(../images/diagonal_dark.gif) repeat;
+	}
+	.header ul li a:hover { /* Highlighter and mouse over tab */
 		color: #000;
 		text-decoration: none;
 		border: none;
